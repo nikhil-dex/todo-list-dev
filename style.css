@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: calc(100vh - 15.20vh);
+}
+
+.input-todo{
+    border-radius: 15px;
+    border: none;
+}
+.add-btn{
+    border-radius: 11px;
+    width: 100px;
+    background: #4976ff;
+}
+
+.grid-list{
+    display: grid;
+    grid-template-columns: auto;
+    border: 2px solid silver;
+    border-radius: 19px;
+    padding: 30px;
+}
+#list{
+    border-radius: 19px;
+    border: 1px solid silver;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+#list #check{
+    border-radius: 42px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid silver;
+}
+
+#list:hover{
+    background: grey;
+}
+/* after slect the list */
+#newlist{
+    border-radius: 19px;
+    border: 1px solid silver;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: grey;
+}
+#newlist #newcheck{
+    border-radius: 42px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid silver;
+    background: green;
+}
+
+.cross{
+    width: 35px;
+    justify-content: center;
+    border-radius: 25px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+
+}
+.cross:hover{
+    background: red;
+    width: 35px;
+    justify-content: center;
+    border-radius: 25px;
+    height: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
